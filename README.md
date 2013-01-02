@@ -3,7 +3,7 @@ RBCNumberSpeaker
 
 iOS class to speak numbers using pre-recorded sound files.
 
-For example, "12345" will be spoken as "one thousand three hundred forty five".
+For example, "12345" will be spoken as "twelve thousand three hundred forty five".
 
 Usage
 -----

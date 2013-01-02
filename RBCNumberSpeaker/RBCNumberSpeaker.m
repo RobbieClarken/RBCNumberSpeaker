@@ -113,7 +113,7 @@
             if (error) {
                 NSLog(@"Error playing %@: %@", basename, [error description]);
             }
-            // TODO: Handler error
+            // TODO: Handle error
             [self.player play];
         } else {
             NSLog(@"%@ file doesn't exist", basename);
