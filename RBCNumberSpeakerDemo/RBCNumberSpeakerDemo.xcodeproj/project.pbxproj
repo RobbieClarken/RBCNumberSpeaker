@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD766AB16942D8100ACD788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD766AA16942D8100ACD788 /* UIKit.framework */; };
+		DCD766AD16942D8100ACD788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD766AC16942D8100ACD788 /* Foundation.framework */; };
+		DCD766AF16942D8100ACD788 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD766AE16942D8100ACD788 /* CoreGraphics.framework */; };
+		DCD766B516942D8100ACD788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD766B316942D8100ACD788 /* InfoPlist.strings */; };
+		DCD766B716942D8100ACD788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD766B616942D8100ACD788 /* main.m */; };
+		DCD766BB16942D8100ACD788 /* RBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD766BA16942D8100ACD788 /* RBCAppDelegate.m */; };
+		DCD766BD16942D8100ACD788 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD766BC16942D8100ACD788 /* Default.png */; };
+		DCD766BF16942D8100ACD788 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD766BE16942D8100ACD788 /* Default@2x.png */; };
+		DCD766C116942D8100ACD788 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD766C016942D8100ACD788 /* Default-568h@2x.png */; };
+		DCD766C416942D8100ACD788 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD766C216942D8100ACD788 /* MainStoryboard.storyboard */; };
+		DCD766C716942D8100ACD788 /* RBCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD766C616942D8100ACD788 /* RBCViewController.m */; };
+		DCD766D116942DAB00ACD788 /* RBCNumberSpeaker.h in Resources */ = {isa = PBXBuildFile; fileRef = DCD766CE16942DAB00ACD788 /* RBCNumberSpeaker.h */; };
+		DCD766D216942DAB00ACD788 /* RBCNumberSpeaker.m in Resources */ = {isa = PBXBuildFile; fileRef = DCD766CF16942DAB00ACD788 /* RBCNumberSpeaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCD766A616942D8100ACD788 /* RBCNumberSpeakerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBCNumberSpeakerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD766AA16942D8100ACD788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCD766AC16942D8100ACD788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCD766AE16942D8100ACD788 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCD766B216942D8100ACD788 /* RBCNumberSpeakerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RBCNumberSpeakerDemo-Info.plist"; sourceTree = "<group>"; };
+		DCD766B416942D8100ACD788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCD766B616942D8100ACD788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCD766B816942D8100ACD788 /* RBCNumberSpeakerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBCNumberSpeakerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		DCD766B916942D8100ACD788 /* RBCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBCAppDelegate.h; sourceTree = "<group>"; };
+		DCD766BA16942D8100ACD788 /* RBCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBCAppDelegate.m; sourceTree = "<group>"; };
+		DCD766BC16942D8100ACD788 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DCD766BE16942D8100ACD788 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DCD766C016942D8100ACD788 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DCD766C316942D8100ACD788 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DCD766C516942D8100ACD788 /* RBCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBCViewController.h; sourceTree = "<group>"; };
+		DCD766C616942D8100ACD788 /* RBCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBCViewController.m; sourceTree = "<group>"; };
+		DCD766CE16942DAB00ACD788 /* RBCNumberSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = RBCNumberSpeaker.h; path = ../RBCNumberSpeaker/RBCNumberSpeaker.h; sourceTree = "<group>"; };
+		DCD766CF16942DAB00ACD788 /* RBCNumberSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = RBCNumberSpeaker.m; path = ../RBCNumberSpeaker/RBCNumberSpeaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD766A316942D8100ACD788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD766AB16942D8100ACD788 /* UIKit.framework in Frameworks */,
+				DCD766AD16942D8100ACD788 /* Foundation.framework in Frameworks */,
+				DCD766AF16942D8100ACD788 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD7669B16942D8100ACD788 = {
+			isa = PBXGroup;
+			children = (
+				DCD766D016942DAB00ACD788 /* Classes */,
+				DCD766B016942D8100ACD788 /* RBCNumberSpeakerDemo */,
+				DCD766A916942D8100ACD788 /* Frameworks */,
+				DCD766A716942D8100ACD788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD766A716942D8100ACD788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD766A616942D8100ACD788 /* RBCNumberSpeakerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD766A916942D8100ACD788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD766AA16942D8100ACD788 /* UIKit.framework */,
+				DCD766AC16942D8100ACD788 /* Foundation.framework */,
+				DCD766AE16942D8100ACD788 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCD766B016942D8100ACD788 /* RBCNumberSpeakerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DCD766B916942D8100ACD788 /* RBCAppDelegate.h */,
+				DCD766BA16942D8100ACD788 /* RBCAppDelegate.m */,
+				DCD766C216942D8100ACD788 /* MainStoryboard.storyboard */,
+				DCD766C516942D8100ACD788 /* RBCViewController.h */,
+				DCD766C616942D8100ACD788 /* RBCViewController.m */,
+				DCD766B116942D8100ACD788 /* Supporting Files */,
+			);
+			path = RBCNumberSpeakerDemo;
+			sourceTree = "<group>";
+		};
+		DCD766B116942D8100ACD788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD766B216942D8100ACD788 /* RBCNumberSpeakerDemo-Info.plist */,
+				DCD766B316942D8100ACD788 /* InfoPlist.strings */,
+				DCD766B616942D8100ACD788 /* main.m */,
+				DCD766B816942D8100ACD788 /* RBCNumberSpeakerDemo-Prefix.pch */,
+				DCD766BC16942D8100ACD788 /* Default.png */,
+				DCD766BE16942D8100ACD788 /* Default@2x.png */,
+				DCD766C016942D8100ACD788 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD766D016942DAB00ACD788 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCD766CE16942DAB00ACD788 /* RBCNumberSpeaker.h */,
+				DCD766CF16942DAB00ACD788 /* RBCNumberSpeaker.m */,
+			);
+			name = Classes;
+			path = ../RBCNumberSpeakerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD766A516942D8100ACD788 /* RBCNumberSpeakerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD766CA16942D8100ACD788 /* Build configuration list for PBXNativeTarget "RBCNumberSpeakerDemo" */;
+			buildPhases = (
+				DCD766A216942D8100ACD788 /* Sources */,
+				DCD766A316942D8100ACD788 /* Frameworks */,
+				DCD766A416942D8100ACD788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBCNumberSpeakerDemo;
+			productName = RBCNumberSpeakerDemo;
+			productReference = DCD766A616942D8100ACD788 /* RBCNumberSpeakerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD7669D16942D8100ACD788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RBC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Robbie Clarken";
+			};
+			buildConfigurationList = DCD766A016942D8100ACD788 /* Build configuration list for PBXProject "RBCNumberSpeakerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCD7669B16942D8100ACD788;
+			productRefGroup = DCD766A716942D8100ACD788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD766A516942D8100ACD788 /* RBCNumberSpeakerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD766A416942D8100ACD788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD766B516942D8100ACD788 /* InfoPlist.strings in Resources */,
+				DCD766BD16942D8100ACD788 /* Default.png in Resources */,
+				DCD766BF16942D8100ACD788 /* Default@2x.png in Resources */,
+				DCD766C116942D8100ACD788 /* Default-568h@2x.png in Resources */,
+				DCD766C416942D8100ACD788 /* MainStoryboard.storyboard in Resources */,
+				DCD766D116942DAB00ACD788 /* RBCNumberSpeaker.h in Resources */,
+				DCD766D216942DAB00ACD788 /* RBCNumberSpeaker.m in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD766A216942D8100ACD788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD766B716942D8100ACD788 /* main.m in Sources */,
+				DCD766BB16942D8100ACD788 /* RBCAppDelegate.m in Sources */,
+				DCD766C716942D8100ACD788 /* RBCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCD766B316942D8100ACD788 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD766B416942D8100ACD788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCD766C216942D8100ACD788 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD766C316942D8100ACD788 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD766C816942D8100ACD788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCD766C916942D8100ACD788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD766CB16942D8100ACD788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBCNumberSpeakerDemo/RBCNumberSpeakerDemo-Prefix.pch";
+				INFOPLIST_FILE = "RBCNumberSpeakerDemo/RBCNumberSpeakerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCD766CC16942D8100ACD788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBCNumberSpeakerDemo/RBCNumberSpeakerDemo-Prefix.pch";
+				INFOPLIST_FILE = "RBCNumberSpeakerDemo/RBCNumberSpeakerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD766A016942D8100ACD788 /* Build configuration list for PBXProject "RBCNumberSpeakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD766C816942D8100ACD788 /* Debug */,
+				DCD766C916942D8100ACD788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD766CA16942D8100ACD788 /* Build configuration list for PBXNativeTarget "RBCNumberSpeakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD766CB16942D8100ACD788 /* Debug */,
+				DCD766CC16942D8100ACD788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD7669D16942D8100ACD788 /* Project object */;
+}
