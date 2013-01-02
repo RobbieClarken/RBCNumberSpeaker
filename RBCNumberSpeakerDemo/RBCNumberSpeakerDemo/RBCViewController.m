@@ -22,7 +22,7 @@
     [super viewDidLoad];
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionDuckOthers error:nil];
     [self.textField becomeFirstResponder];
-    numberSpeaker = [[RBCNumberSpeaker alloc] init];
+    numberSpeaker = [RBCNumberSpeaker sharedNumberSpeaker];
 }
 
 - (IBAction)speakButtonPressed:(UIButton *)sender {

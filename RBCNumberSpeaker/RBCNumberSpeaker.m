@@ -20,6 +20,15 @@
 
 @implementation RBCNumberSpeaker
 
++ (RBCNumberSpeaker *)sharedNumberSpeaker {
+    static RBCNumberSpeaker *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[self alloc] init];
+    });
+    return sharedInstance;
+}
+
 - (id)init {
     self = [super init];
     if (!self) {
