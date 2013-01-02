@@ -24,7 +24,10 @@
 }
 
 - (IBAction)speakButtonPressed:(UIButton *)sender {
-    
+    if ([self.textField.text length] == 0) {
+        return;
+    }
+    [numberSpeaker speakNumber:[self.textField.text intValue]];
 }
 
 @end
