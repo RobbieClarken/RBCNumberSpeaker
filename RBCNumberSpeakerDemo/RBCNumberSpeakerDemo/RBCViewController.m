@@ -7,23 +7,24 @@
 //
 
 #import "RBCViewController.h"
+#import "RBCNumberSpeaker.h"
 
-@interface RBCViewController ()
-
+@interface RBCViewController () {
+    RBCNumberSpeaker *numberSpeaker;
+}
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 @end
 
 @implementation RBCViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.textField becomeFirstResponder];
+    numberSpeaker = [[RBCNumberSpeaker alloc] init];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)speakButtonPressed:(UIButton *)sender {
+    
 }
 
 @end
