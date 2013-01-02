@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface RBCNumberSpeaker : NSObject
-
+- (void)speakNumber:(NSUInteger)number;
 @end
