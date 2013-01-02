@@ -8,6 +8,7 @@
 
 #import "RBCViewController.h"
 #import "RBCNumberSpeaker.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface RBCViewController () {
     RBCNumberSpeaker *numberSpeaker;
@@ -19,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionDuckOthers error:nil];
     [self.textField becomeFirstResponder];
     numberSpeaker = [[RBCNumberSpeaker alloc] init];
 }
